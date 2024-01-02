@@ -1,0 +1,147 @@
+[
+    {
+        "name": "MARGHERITA SUPREME",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "nonveg",
+        "image": "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
+        "description": "Experience pizza perfection with our classic Margherita"
+    },
+    {
+        "name": "VEGGIE DELIGHT",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "nonveg",
+        "image": "https://thumbs.dreamstime.com/b/ham-veg-pizza-salami-pizza-back-38320413.jpg",
+        "description": "Awaken your taste buds with a pizza featuring fresh basil pesto  Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot."
+    },
+    {
+        "name": "HBBQ CHICKEN BLISS",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "veg",
+        "image": "https://media.istockphoto.com/id/184098729/photo/vegetarian-pizza-03.jpg?s=612x612&w=0&k=20&c=03W_1y9fEfVs_h04DR0S7vaA_u3BXtgLYoXs8TGxF28=",
+        "description": "Fall in love with the smoky goodness of barbecue chicken"
+    },
+    {
+        "name": "MEAT LOVERS FEAST",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "nonveg",
+        "image": "https://media.istockphoto.com/id/1357087265/photo/vegetarian-italian-pizza-with-mozarella-on-black-background.jpg?s=612x612&w=0&k=20&c=q0DVRIt7zcCwQEgdC7ZyFtYHkJrKw4whFg4WlpZQuSg=",
+        "description": "Awaken your taste buds with a pizza featuring fresh basil pesto"
+    },
+    {
+        "name": "MEDITERREAN MARVEL",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "nonveg",
+        "image": "https://media.istockphoto.com/id/1430885903/photo/new-york-style-vegetable-pizza-with-broccoli-olives-and-mushrooms.jpg?s=612x612&w=0&k=20&c=QYOoezUo7uIDy7sGWaUFSvgFiuGE1hfP9c47RdStcZU=",
+        "description": "Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot."
+    },
+    {
+        "name": "FOUE CHEESE FANTASY",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "veg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHxk83t8ZuYqAsnEzjicBeblkLf1m-33B-cQ&usqp=CAU",
+        "description": "Indulge in the timeless favorite – a pizza loaded with savory pepperon  the milk of Italian Mediterranean buffalo) or fior di latte (mozzarella produced from the milk of prized Agerolese cows) and with San Marzano tomatoes or pomodorino vesuviano (a variety of grape tomato grown in Naples)"
+    },
+    {
+        "name": "PESTO PASSION",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "nonveg",
+        "image": "https://img.freepik.com/free-photo/pizza-with-tomatoes-basil-table_140725-819.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703203200&semt=ais",
+        "description": "the milk of Italian Mediterranean buffalo) or fior di latte (mozzarella produced from the milk of prized Agerolese cows) and with San Marzano tomatoes or pomodorino vesuviano (a variety of grape tomato grown in Naples)"
+    },
+    {
+        "name": "SPINACH AND FETA FIESTA",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices":[ {
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "nonveg",
+        "image": "https://img.freepik.com/free-photo/side-view-salami-pizza-with-bell-pepper-tomatoes-olives-rolling-pin-with-flour_141793-14249.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698192000&semt=ais",
+        "description": "Experience pizza perfection with our classic Margherita"
+    },
+    {
+        "name": "BACON BOMBSHELL",
+        "varients": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "prices": [{
+            "small": 200,
+            "medium": 350,
+            "large": 400
+        }],
+        "category": "veg",
+        "image": "https://thumbs.dreamstime.com/b/chicken-pizza-pan-spicy-125364336.jpg",
+        "description": "Experience pizza perfection with our classic Margherita The first pizzeria appeared in New York City about the turn of the 20th century"
+    }
+    
+]
