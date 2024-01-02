@@ -1,12 +1,14 @@
 import './App.css';
-import Footer from './components/Footer';
+
 import Navbar from './components/Navbar';
+import HomeScreens from './screens/HomeScreens';
 
 function App() {
   return (
     <div className="App">
  <Navbar/>
- <Footer/>
+
+ <HomeScreens/>
     </div>
   );
 }
