@@ -1,0 +1,32 @@
+.allpizzas {
+    text-align: center;
+    width: 25rem;
+}
+.cart-heading {
+    font-size: 18px;
+}
+.var-quant-div {
+  
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+}
+.price{
+    margin-top: 20px;
+}
+.add-to-cart-btn{
+   border: none;
+    color: white;
+    background: red;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 550;
+  
+}
+.price-add-to-cart{
+  
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center !important;
+}
