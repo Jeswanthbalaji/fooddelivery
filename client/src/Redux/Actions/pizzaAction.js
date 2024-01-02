@@ -1,30 +1,14 @@
-// export const incr=()=>{
-//     return {
-//         type:"increament"
-//     }
-// }
-// export  const dec=()=>{
-//     return {
-//         type:"decreament"
-//     }
-//  }
+import axios from 'axios'
 
-// export const reset=()=>{
-//     return{
-//         type:"reset"
-//     }
-// }
-import { axios } from "axios"
+export const getAllPizzas=()=>dispatch=>{
+    dispatch({type:"Get_Pizzas_Request"})
 
-const getallpizzas = () => dispatch => {
-
-    dispatch({ type: "GET_PIZZA_REQUEST" })
-
-    try {
-        const axiosconnection = axios.get("/api/getpizzas")
-        console.log(axiosconnection)
-        dispatch({ type: "GET_PIZZA_SUCCESS", payload: axiosconnection.data })
-    } catch (error) {
-        dispatch({ type: "GET_PIZZA_FAIL", payload: error })
+    try{
+        const response=axios.get("/api/getpizzas")
+        console.log(response)
+        dispatch({type:"Get_Pizzas_Success" ,payload:response.data})
+    }catch(error){
+        dispatch({type:"Get_Pizzas_Failed",payload:error})
     }
 }
+
