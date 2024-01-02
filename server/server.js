@@ -19,12 +19,12 @@ server.post("/",(req,res)=>{
  
 mongoose.connect(process.env.MONGODB_URL)
 .then(()=>{
-    server.listen(4000,()=>{
-    console.log("server is listening to port 4000")
+    server.listen(3000,()=>{
+    console.log("server is listening to port 3000")
 })})
 .catch((err)=>{
   console.log(err)
-})
+})  
 
 
 

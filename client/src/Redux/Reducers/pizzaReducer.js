@@ -1,21 +1,22 @@
-// export const reducer=(state,actions)=>{
-//   if(actions.type==="increament"){
-//          ++state
-//   }else if(actions.type==="decreament"){
-//           --state
-//   }else{
-//        state=0
-//   }
-// }
 
-export const getAllPizzasReducers = (state = {}, action) => {
-  switch (action.type) {
-    case "GET_PIZZA_REQUEST":
-       return { ...state }
-    case "GET_PIZZA_SUCCESS": 
-    return { pizzas: action.payload }
-    case "GET_PIZZA_FAIL": 
-    return { error: action.payload }
-    default: return {state}
-  }
+
+
+export const getAllPizzasReducer = (state={},action)=>{
+
+    switch(action.type)
+    {
+        case "Get_Pizzas_Request":return {
+            ...state
+        }
+
+        case "Get_Pizzas_Success":return {
+            pizzas : action.payload
+
+        }
+        case "Get_Pizzas_Failed":return {
+            error : action.payload
+
+        }
+        default : return state
+    }
 }
